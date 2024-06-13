@@ -1,0 +1,3 @@
+SQLAlchemy==1.4.22
+Click==8.0.1
+matplotlib==3.4.2
