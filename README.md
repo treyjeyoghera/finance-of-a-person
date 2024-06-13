@@ -48,3 +48,4 @@ Clone the repository and install dependencies using Pipenv:
 git clone https://github.com/yourusername/personal_finance_manager.git
 cd personal_finance_manager
 pipenv install
+[GitHub Repository](https://github.com/treyjeyoghera/finance-of-a-person.git)
