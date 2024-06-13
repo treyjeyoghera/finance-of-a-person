@@ -1,5 +1,5 @@
 from click.testing import CliRunner
-from cli import cli
+
 
 def test_create_user():
     runner = CliRunner()
