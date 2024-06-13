@@ -3,7 +3,7 @@ from sqlalchemy.orm import sessionmaker
 from models import Base, User, Account, Transaction, Location, Investment
 from datetime import datetime
 
-# Create an engine to connect to the database
+#engine to connect to the database
 engine = create_engine('sqlite:///your_database.db')
 Base.metadata.create_all(engine)
 
