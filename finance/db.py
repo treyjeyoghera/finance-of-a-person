@@ -10,7 +10,9 @@ Base.metadata.create_all(engine)
 # Create a Session class to interact with the database
 Session = sessionmaker(bind=engine)
 
+
 # Define a function to add a user
+
 def add_user():
     username = input("Enter username: ")
     password = input("Enter password: ")
