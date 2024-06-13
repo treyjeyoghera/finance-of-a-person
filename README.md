@@ -1,5 +1,7 @@
+Author :treyjey oghera
+ project name :Personal Finance Manager
 
-Personal Finance Manager
+ 
 The Personal Finance Manager is a Python application designed to help individuals manage their finances effectively. It provides a user-friendly Command Line Interface (CLI) that allows users to easily track their income, expenses, and financial goals.
 
 Features
