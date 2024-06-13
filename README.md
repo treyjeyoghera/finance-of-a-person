@@ -25,3 +25,4 @@ Commands: Use the CLI commands to manage your finances, create accounts, add tra
 Contributing: Contributions are welcome! Fork the repository, make your changes, and submit a pull request.
 
 License: This project is licensed under the MIT License. See the LICENSE file for details.
+technologies used
