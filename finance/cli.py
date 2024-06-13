@@ -33,6 +33,7 @@ def create_account():
     click.echo("Account created successfully")
 
 @cli.command()
+
 def create_transaction():
     date = click.prompt("Enter transaction date (YYYY-MM-DD)")
     description = click.prompt("Enter transaction description")
