@@ -8,7 +8,7 @@ Session = sessionmaker(bind=engine)
 session = Session()
 
 def visualize():
-    # Example visualization (you can customize this as needed)
+
     account_balances = session.query(Account.balance).all()
     balances = [balance for (balance,) in account_balances]
     
