@@ -10,7 +10,7 @@ Base.metadata.create_all(engine)
 # Create a Session class to interact with the database
 Session = sessionmaker(bind=engine)
 
-# Define a function to add a user
+#  a function to add a user
 def add_user():
     username = input("Enter username: ")
     password = input("Enter password: ")
@@ -21,7 +21,7 @@ def add_user():
     session.close()
     print("User added successfully.")
 
-# Define a function to update a user
+#  a function to update a user
 def update_user():
     user_id = int(input("Enter user ID to update: "))
     session = Session()
@@ -37,7 +37,7 @@ def update_user():
         print("User not found.")
     session.close()
 
-# Define a function to delete a user
+#  a function to delete a user
 def delete_user():
     user_id = int(input("Enter user ID to delete: "))
     session = Session()
@@ -50,7 +50,7 @@ def delete_user():
         print("User not found.")
     session.close()
 
-# Define a function to add an account
+#  a function to add an account
 def add_account():
     user_id = int(input("Enter user ID: "))
     name = input("Enter account name: ")
@@ -62,7 +62,7 @@ def add_account():
     session.close()
     print("Account added successfully.")
 
-# Define a function to update an account
+#  a function to update an account
 def update_account():
     account_id = int(input("Enter account ID to update: "))
     session = Session()
@@ -78,7 +78,7 @@ def update_account():
         print("Account not found.")
     session.close()
 
-# Define a function to delete an account
+#  a function to delete an account
 def delete_account():
     account_id = int(input("Enter account ID to delete: "))
     session = Session()
@@ -104,7 +104,7 @@ def add_location():
     session.close()
     print("Location added successfully.")
 
-# Define a function to update a location
+#  a function to update a location
 def update_location():
     location_id = int(input("Enter location ID to update: "))
     session = Session()
@@ -124,7 +124,7 @@ def update_location():
         print("Location not found.")
     session.close()
 
-# Define a function to delete a location
+#  a function to delete a location
 def delete_location():
     location_id = int(input("Enter location ID to delete: "))
     session = Session()
@@ -137,7 +137,7 @@ def delete_location():
         print("Location not found.")
     session.close()
 
-# Define a function to add a transaction
+#  a function to add a transaction
 def add_transaction():
     account_id = int(input("Enter account ID: "))
     date_str = input("Enter date (YYYY-MM-DD): ")
@@ -152,7 +152,7 @@ def add_transaction():
     session.close()
     print("Transaction added successfully.")
 
-# Define a function to update a transaction
+#  a function to update a transaction
 def update_transaction():
     transaction_id = int(input("Enter transaction ID to update: "))
     session = Session()
@@ -173,7 +173,7 @@ def update_transaction():
         print("Transaction not found.")
     session.close()
 
-# Define a function to delete a transaction
+#  a function to delete a transaction
 def delete_transaction():
     transaction_id = int(input("Enter transaction ID to delete: "))
     session = Session()
@@ -186,7 +186,7 @@ def delete_transaction():
         print("Transaction not found.")
     session.close()
 
-# Define a function to add an investment
+#  a function to add an investment
 def add_investment():
     account_id = int(input("Enter account ID: "))
     name = input("Enter investment name: ")
@@ -198,7 +198,7 @@ def add_investment():
     session.close()
     print("Investment added successfully.")
 
-# Define a function to update an investment
+#  a function to update an investment
 def update_investment():
     investment_id = int(input("Enter investment ID to update: "))
     session = Session()
@@ -214,7 +214,7 @@ def update_investment():
         print("Investment not found.")
     session.close()
 
-# Define a function to delete an investment
+#  a function to delete an investment
 def delete_investment():
     investment_id = int(input("Enter investment ID to delete: "))
     session = Session()
