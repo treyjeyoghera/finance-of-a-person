@@ -26,3 +26,4 @@ Contributing: Contributions are welcome! Fork the repository, make your changes,
 
 License: This project is licensed under the MIT License. See the LICENSE file for details.
 technologies used
+python
