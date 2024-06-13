@@ -10,7 +10,6 @@ session = Session()
 @click.group()
 def cli():
     pass
-
 @cli.command()
 def create_user():
     username = click.prompt("Enter username")
@@ -23,6 +22,7 @@ def create_user():
 
 @cli.command()
 def create_account():
+    
     name = click.prompt("Enter account name")
     balance = click.prompt("Enter initial balance", type=float)
     user_id = click.prompt("Enter user ID")
